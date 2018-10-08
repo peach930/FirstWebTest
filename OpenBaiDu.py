@@ -17,7 +17,7 @@ class Baidu(unittest.TestCase):
         self.base_url = "http://www.baidu.com"
         self.verificationErrors = []
         self.accept_net_alter = True
-
+    '''百度搜索selenium用例'''
     def test_baidu_search(self):
         driver = self.driver
         driver.get(self.base_url)
