@@ -32,6 +32,7 @@ if __name__=='__main__':
 # if __name__=='__FirstWebTest__':
     testunit = unittest.TestSuite()
     testunit.addTest(Baidu('test_baidu_search'))
+    print("用例运行完成")
     # HtmlFile = "D:\\PycharmProjects\\FirstWebTest\\report\\result.html"
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     HtmlFile = r'.\report\ ' + now + 'result.html'
