@@ -35,7 +35,7 @@ if __name__=='__main__':
     print("用例运行完成")
     # HtmlFile = "D:\\PycharmProjects\\FirstWebTest\\report\\result.html"
     now = time.strftime("%Y-%m-%d %H_%M_%S")
-    HtmlFile = r'.\report\ ' + now + 'result.html'
+    HtmlFile = r'.\report\ ' + now + 'report.html'
     fp = open(HtmlFile,'wb')
     runner = HTMLTestRunner(stream=fp, title=u'OpenBaiDu_Auto_cases', description=u'用例执行情况：')
     runner.run(testunit)
